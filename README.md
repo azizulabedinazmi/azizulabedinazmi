@@ -41,21 +41,31 @@
 
 ## I am a student pursuing a Bachelors's in Computer Science 🎓 from East West University, Dhaka 🏛. I am a keen learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to 💻. I'm currently working on my Development Skills 🤓.
 
-<br />
+<br>
 
-<img align="right" height="250" width="375" alt="GIF" src="https://raw.githubusercontent.com/syedareehaquasar/syedareehaquasar/master/gifs/coder.gif" />
+<img align="right" height="360" width="480" alt="GIF" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/coders.gif" />
 
---📚 Studying at 
+<br>
+<br>
 
- 
-  Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![C](https://img.shields.io/badge/C%20-%23E34F26.svg?&style=for-the-badge&logo=C&logoColor=white)
+![Python](https://img.shields.io/badge/python%20-%23E34F26.svg?&style=for-the-badge&logo=python&ogoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=PowerShell&logoColor=white)
+
+![VSCode](https://img.shields.io/badge/-vscode-00a8e8?style=for-the-badge&logo=visual-studio-code)
+![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/-linux-772953?style=for-the-badge&logo=linux)
+
+![HTML](https://img.shields.io/badge/html%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+
+<p align="center"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
+
+**Visitors Count**  
+![VisitorCount](https://profile-counter.glitch.me/{azizulabedinazmi}/count.svg)
