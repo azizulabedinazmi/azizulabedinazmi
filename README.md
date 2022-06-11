@@ -44,6 +44,7 @@
 <br>
 
 <img align="right" height="360" width="480" alt="GIF" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/coders.gif" />
+<img align="center" height="360" width="480" alt="GIF" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/NUX_Octodex.gif" />
 
 <br>
 <br>
