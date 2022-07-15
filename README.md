@@ -57,7 +57,6 @@
       </nav>
     </div>
   </nav>
-</head>
 </p>
 
 ### I am a student pursuing a Bachelors's in Computer Science 🎓 from East West University, Dhaka 🏛. I am a keen learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to 💻. I'm currently working on my Development Skills 🤓.
