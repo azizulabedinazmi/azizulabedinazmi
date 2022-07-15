@@ -36,7 +36,28 @@
   <a href="https://github.com/azizulabedinazmi/" target="_blank">
   &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-512.png" width="50" height="50" >
   </a>
-  
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <nav class="nav-footer w3-opacity w3-center">
+        <p class="nav-footer-social-buttons">
+  <a class="fa-icon" href="https://www.facebook.com/azizul.abedin.azmi/" target="_blank" title="Facebook Profile">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a class="fa-icon" href="https://www.instagram.com/azizulabedin/" target="_blank" title="Instagram Profile">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a class="fa-icon" href="https://twitter.com/AzmiAbedin/" target="_blank" title="Twitter Profile">
+            <i class="fa fa-twitter"></i>
+			</a>
+		<a class="fa-icon" href="https://www.snapchat.com/add/azizulabedin/" target="_blank" title="SnapChat Profile">
+            <i class="fa fa-snapchat-ghost"></i>
+          </a>
+        </p>
+        <p>© Untitled | Website created by <a href="https://www.facebook.com/azizul.abedin.azmi/" target="_blank" title="Create website with html template">AZIZUL ABEDIN AZMI</a></p>
+      </nav>
+    </div>
+  </nav>
+</head>
 </p>
 
 ### I am a student pursuing a Bachelors's in Computer Science 🎓 from East West University, Dhaka 🏛. I am a keen learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to 💻. I'm currently working on my Development Skills 🤓.
