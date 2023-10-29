@@ -42,7 +42,7 @@
 
 <br>
 
-<img align="right" height="260" width="380" alt="GIF" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/coders.gif" />
+<img align="right" height="360" width="480" alt="GIF" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/coders.gif" />
 <img alt="GIF" height="480" width="600" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/NUX_Octodex.gif" />
 
 <br>
