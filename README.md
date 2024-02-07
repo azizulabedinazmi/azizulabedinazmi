@@ -66,6 +66,9 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![UUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
+![STEAM](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)
+
+![BITCOIN](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white)
 
 
 <p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
