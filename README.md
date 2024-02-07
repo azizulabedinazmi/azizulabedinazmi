@@ -73,7 +73,7 @@
 
 
 [![Donation](https://img.shields.io/badge/Buy_Me_a_Coffie_-blue)](https://www.buymeacoffee.com/azizulabedinazmi)
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="azizulabedinazmi" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 
 <p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
 
