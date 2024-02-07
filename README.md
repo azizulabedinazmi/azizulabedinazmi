@@ -72,7 +72,7 @@
 
 
 
-[![Donation](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.buymeacoffee.com/azizulabedinazmi)
+[![Donation](https://img.shields.io/badge/Buy_Me_a_Coffie_-blue)](https://www.buymeacoffee.com/azizulabedinazmi)
 
 <p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
 
