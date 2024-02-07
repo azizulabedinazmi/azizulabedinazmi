@@ -72,7 +72,7 @@
 
 
 
-[![Donation](https://img.shields.io/badge/Buy_Me_a_Coffie_-blue)](https://www.buymeacoffee.com/azizulabedinazmi)
+
 <a href="https://www.buymeacoffee.com/azizulabedinazmi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=azizulabedinazmi&button_colour=5F7FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
