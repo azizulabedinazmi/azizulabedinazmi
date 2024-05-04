@@ -73,9 +73,6 @@
 <a href="https://www.buymeacoffee.com/azizulabedinazmi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-<a href="https://www.buymeacoffee.com/azizulabedinazmi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=azizulabedinazmi&button_colour=5F7FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
-
 <p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
 
 **Visitors Count**  
