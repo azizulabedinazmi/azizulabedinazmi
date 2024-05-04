@@ -75,7 +75,5 @@
 
 <p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="azizulabedinazmi" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
 **Visitors Count**  
 ![VisitorCount](https://profile-counter.glitch.me/{azizulabedinazmi}/count.svg)
