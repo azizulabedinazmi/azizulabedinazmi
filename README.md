@@ -48,7 +48,7 @@
 
 
 ![C](https://img.shields.io/badge/C%20-%23E34F26.svg?&style=for-the-badge&logo=C&logoColor=white)
-![Python](https://img.shields.io/badge/python%20-%23E34F26.svg?&style=for-the-badge&logo=python&ogoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=PowerShell&logoColor=white)
 
@@ -72,7 +72,8 @@
 <a href="https://www.buymeacoffee.com/azizulabedinazmi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-<p align="center"><img width="80%" src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></p>
+| <a href="https://github.com/azizulabedinazmi/github-readme-stats"><img align=cnter src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></a> | <a href="https://github.com/azizulabedinazmi/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azizulabedinazmi&size_weight=0.5&count_weight=0.5" /></a> |
+| ------------- | ------------- |
 
 **Visitors Count**  
 ![VisitorCount](https://profile-counter.glitch.me/{azizulabedinazmi}/count.svg)
