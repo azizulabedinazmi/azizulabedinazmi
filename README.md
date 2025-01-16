@@ -69,6 +69,8 @@
 
 ![BITCOIN](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white)
 
+<a href="https://university.cpanel.net/user/437528"><img height="100" width="200" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/master/img/cpp_badge_rev.svg" alt="License Badge"/></a>
+
 <a href="https://www.buymeacoffee.com/azizulabedinazmi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
