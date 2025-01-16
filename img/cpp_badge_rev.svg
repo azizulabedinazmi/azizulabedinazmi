@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405.53 405.99">
+  <title>CPP Badge</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="CPP">
+      <g>
+        <path d="M199.43,402.73q7.08.13,14.15-.24c110.29-5.8,194.86-99.92,188.89-210.22S302.24-2.75,192,3.05-2.91,103,3.06,213.27A200.39,200.39,0,0,0,199.43,402.73Zm.87-52.56a147.21,147.21,0,1,1,10.44-.18C207.27,350.17,203.78,350.23,200.3,350.17Z" style="fill: #e6e6e6;fill-rule: evenodd"/>
+        <path d="M199.43,402.73q7.08.13,14.15-.24c110.29-5.8,194.86-99.92,188.89-210.22S302.24-2.75,192,3.05-2.91,103,3.06,213.27A200.39,200.39,0,0,0,199.43,402.73Zm.87-52.56a147.21,147.21,0,1,1,10.44-.18C207.27,350.17,203.78,350.23,200.3,350.17Z" style="fill: none;stroke: #b8b8b8;stroke-width: 5.530661930417738px"/>
+        <path d="M202.62,56.14c80.72,0,146.15,65.78,146.15,146.92S283.34,350,202.62,350,56.49,284.23,56.49,203.06,121.91,56.14,202.62,56.14Z" style="fill: #ff6c2c"/>
+        <g>
+          <path d="M188.88,160.59H141.62s-58.87,6.1-57.28,64.23c0,0-1.59,42.21,42,56a49.81,49.81,0,0,0,8.45,2.12c4,.53,21.12,0,21.12,0l9-29.72s3.16-8-6.08-9.56l-19.27.53s-15.57-3.21-15.57-22.31c0,0-1.59-13.48,15.57-20.14H167s11.35,1,15.31-11.33Z" style="fill: #fff"/>
+          <path d="M163.8,283.19,203,136.43s2-14.06,14.94-15.39H269.4s49.1,5.4,52.53,58.44c0,0,4.49,48-46.46,64.19l-52,.8,7.13-27.34s1.95-11.68,12.33-12.21,20.41,0,20.41,0,18.48-1.82,19-21.48-19-21.52-19-21.52l-24.55-.27-29,109.62s-2.64,11.62-14.26,11.92S163.8,283.19,163.8,283.19Z" style="fill: #fff"/>
+        </g>
+        <text transform="matrix(0.59, 0.87, -0.83, 0.56, 40.5, 297.27)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">C</text>
+        <text transform="translate(55.53 319.15) rotate(48.27) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">P</text>
+        <text transform="translate(70.4 335.94) rotate(41) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">A</text>
+        <text transform="matrix(0.89, 0.56, -0.53, 0.85, 91.57, 354.16)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">N</text>
+        <text transform="translate(117.05 369.7) rotate(23.98) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">E</text>
+        <text transform="translate(138.39 378.95) rotate(17.26) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">L</text>
+        <text transform="translate(156.73 384.41) rotate(12.84) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700"> </text>
+        <text transform="translate(167.18 387.12) rotate(7) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">U</text>
+        <text transform="matrix(1.05, -0.03, 0.03, 1, 195.19, 390.41)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">N</text>
+        <text transform="translate(224.63 388.93) rotate(-8.26) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">I</text>
+        <text transform="translate(237.7 387.24) rotate(-14.22) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">V</text>
+        <text transform="translate(262.84 380.61) rotate(-21.79) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">E</text>
+        <text transform="translate(284.52 371.83) rotate(-29.21) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">R</text>
+        <text transform="translate(306.49 359.28) rotate(-36.51) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">S</text>
+        <text transform="matrix(0.78, -0.7, 0.67, 0.74, 324.3, 345.7)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">I</text>
+        <text transform="matrix(0.72, -0.77, 0.73, 0.68, 334.08, 337.09)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">T</text>
+        <text transform="translate(349.03 320.92) rotate(-54.31) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">Y</text>
+        <text transform="matrix(0.48, -0.93, 0.89, 0.46, 51.39, 137.32)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">C</text>
+        <text transform="matrix(0.61, -0.86, 0.82, 0.58, 62.19, 116.56)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">P</text>
+        <text transform="matrix(0.71, -0.78, 0.74, 0.68, 73.23, 100.47)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">A</text>
+        <text transform="translate(89.59 82.41) rotate(-38.77) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">N</text>
+        <text transform="translate(110.42 65.91) rotate(-30.69) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">E</text>
+        <text transform="translate(128.1 55.48) rotate(-24.04) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">L</text>
+        <text transform="matrix(0.99, -0.35, 0.34, 0.94, 144.04, 48.54)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700"> </text>
+        <text transform="translate(151.95 45.38) rotate(-14.31) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">P</text>
+        <text transform="translate(172.77 40.01) rotate(-6.66) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">R</text>
+        <text transform="translate(194.72 37.15) rotate(2.08) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">O</text>
+        <text transform="translate(223.31 38.48) rotate(10.3) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">F</text>
+        <text transform="matrix(1, 0.31, -0.3, 0.95, 242.44, 41.89)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">E</text>
+        <text transform="translate(261.96 47.96) rotate(24.36) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">S</text>
+        <text transform="translate(280.14 56.16) rotate(31.34) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">S</text>
+        <text transform="matrix(0.84, 0.63, -0.6, 0.8, 297.32, 66.87)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">I</text>
+        <text transform="translate(306.15 72.76) rotate(43.61) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">O</text>
+        <text transform="translate(326.71 92.37) rotate(53.08) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">N</text>
+        <text transform="translate(342.58 113.51) rotate(61.88) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">A</text>
+        <text transform="translate(354.01 135.31) rotate(69.26) scale(1.05 1)" style="font-size: 32.73336410522461px;fill: #293a4a;font-family: AvenirNext-Bold, Avenir Next;font-weight: 700">L</text>
+      </g>
+    </g>
+  </g>
+</svg>
