@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/stargazers"><img src="https://img.shields.io/github/stars/azizulabedinazmi/awesome-github-profile-readme" alt="Stars Badge"/></a>
+<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/azizulabedin"><img src="https://img.shields.io/github/stars/azizulabedinazmi/awesome-github-profile-readme" alt="Stars Badge"/></a>
 <a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/network/members"><img src="https://img.shields.io/github/forks/azizulabedinazmi/awesome-github-profile-readme" alt="Forks Badge"/></a>
 <a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/pulls"><img src="https://img.shields.io/github/issues-pr/azizulabedinazmi/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/issues"><img src="https://img.shields.io/github/issues/azizulabedinazmi/awesome-github-profile-readme" alt="Issues Badge"/></a>
