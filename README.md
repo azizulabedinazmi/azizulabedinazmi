@@ -77,5 +77,3 @@
 <a href="https://www.buymeacoffee.com/azizulabedinazmi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-| <a href="https://github.com/azizulabedinazmi/github-readme-stats"><img align=cnter src="https://github-readme-stats.vercel.app/api?username=azizulabedinazmi&show_icons=true" /></a> | <a href="https://github.com/azizulabedinazmi/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azizulabedinazmi&size_weight=0.5&count_weight=0.5" /></a> |
-| ------------- | ------------- |
