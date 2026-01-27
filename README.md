@@ -1,4 +1,4 @@
-<h2 align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Caveat+Brush&size=35&duration=4000&pause=&center=true&width=700&height=70&lines=Hello+there+%F0%9F%91%8B+It's+Azizul+Abedin+Azmi+%F0%9F%98%83" alt="Typing SVG"/></a></h2>
+<h2 align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Caveat+Brush&size=35&duration=4000&pause=&center=true&width=700&height=70&lines=Hello+there+%F0%9F%91%8B+It's+Azizul+Abedin+Azmi+%F0%9F%98%83" alt="Typing SVG"/></h2>
   
  <p align="center">
   
