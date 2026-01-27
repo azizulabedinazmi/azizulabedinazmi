@@ -76,4 +76,4 @@
 
 <a href="https://www.buymeacoffee.com/azizulabedinazmi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-
+<p align="left"> <img height="28" src="https://komarev.com/ghpvc/?username=azizulabedinazmi&label=Profile%20Views&color=00B2FF&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/> </p>
