@@ -1,16 +1,4 @@
 <h2 align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Caveat+Brush&size=35&duration=4000&pause=&center=true&width=700&height=70&lines=Hello+there+%F0%9F%91%8B+It's+Azizul+Abedin+Azmi+%F0%9F%98%83" alt="Typing SVG"/></a></h2>
-
-
-<div align="center">
-
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/azizulabedin"><img src="https://img.shields.io/github/stars/azizulabedinazmi/awesome-github-profile-readme" alt="Stars Badge"/></a>
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/network/members"><img src="https://img.shields.io/github/forks/azizulabedinazmi/awesome-github-profile-readme" alt="Forks Badge"/></a>
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/pulls"><img src="https://img.shields.io/github/issues-pr/azizulabedinazmi/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/issues"><img src="https://img.shields.io/github/issues/azizulabedinazmi/awesome-github-profile-readme" alt="Issues Badge"/></a>
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/azizulabedinazmi/awesome-github-profile-readme?color=2b9348"></a>
-<a href="https://github.com/azizulabedinazmi/awesome-github-profile-readme/blob/master/LICENSE"><img src="https://img.shields.io/github/license/azizulabedinazmi/awesome-github-profile-readme?color=2b9348" alt="License Badge"/></a>
-
- </div>
   
  <p align="center">
   
