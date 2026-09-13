@@ -2,20 +2,22 @@
 
 <p align="center">
   <a href="https://bd.linkedin.com/in/azizulabedin/" target="_blank">
-  <img alt="LinkedIn" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" width="50" height="50" >
+  <img alt="ifty-Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" width="50" height="50" >
+  </a>
+  <a href="https://www.facebook.com/azizul.abedin.azmi" target="_blank">
+ &nbsp;<img style="padding-right: 5px;" alt="ifty-Instagram" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-circle-512.png" width="50" height="50" >
+  </a>
+  <a href="https://www.instagram.com/azizulabedin/" target="_blank">
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png" width="50"              height="50" >
+  </a>
+  <a href="https://www.snapchat.com/add/azizulabedin" target="_blank">
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-snapchat-circle-512.png" width="50" height="50" >
+  </a>
+  <a href="https://twitter.com/AzmiAbedin/" target="_blank">
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-circle-512.png" width="50" height="50" >
   </a>
   <a href="https://github.com/azizulabedinazmi/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="GitHub" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-512.png" width="50" height="50" >
-  </a>
-  <a href="https://www.researchgate.net/profile/Azizul-Abedin-Azmi" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ResearchGate" src="https://cdn4.iconfinder.com/data/icons/scientific-and-academic-writing/64/ResearchGate-512.png" width="50" height="50" >
-  </a>
-  <!-- TODO: replace # with your real ORCID and Portfolio URLs -->
-  <a href="#" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ORCID" src="https://cdn4.iconfinder.com/data/icons/scientific-and-academic-writing/64/ORCID-512.png" width="50" height="50" >
-  </a>
-  <a href="#" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="Portfolio" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/website-512.png" width="50" height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-512.png" width="50" height="50" >
   </a>
 </p>
 
