@@ -44,35 +44,6 @@ The job search after graduating has been a genuinely hard stretch — a lot of c
 - **A Vision Transformer Adaptation of SimCLRv2 for Self-Supervised Galaxy Detection**
   *SPICSCON 2025, IEEE* — [DOI: 10.1109/spicscon69221.2025.11504180](https://doi.org/10.1109/spicscon69221.2025.11504180)
 
-**In progress:**
-- AgriSimCLR — adaptive contrastive self-supervised learning with hierarchical ViT for label-efficient crop classification
-- Sustainable E-Waste Management — detection and classification using deep learning
-- Vitiligo Disease Classification using self-supervised learning via Swin Transformer
-
-### 🎓 Thesis
-**RMP-BYOL: Enhancing Rare Medicinal Plant Classification Using a Non-Contrastive Self-Supervised Learning Framework**
-*Completed — under review for publication*
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
-
-## 💡 Featured Projects
-
-**AI & Machine Learning**
-
-- **Image Caption Generator** — InceptionV3 + Transformer on COCO, deployed via Streamlit — [GitHub Repository](#)
-- **Crop Classification System** — ViT-based crop type classifier, deployed as a Gradio app — [GitHub Repository](#)
-- **E-Waste Detection System** — YOLO + Gradio, works across images/video/camera/Android (ADB) — [GitHub Repository](#)
-- **RMP Classification Models** — 6 self-supervised ViT weights (SimCLR v1/v2, BYOL, Barlow Twins, NNCLR, MoCo v2) hosted on HuggingFace with auto-download — [HuggingFace Space](#)
-
-**Software Development**
-
-- **Airline Management System** — Oracle APEX + PL/SQL for flight scheduling, ticketing, and passenger management — [GitHub Repository](#)
-- **Car Rental System** — reservation, inventory, and customer record management — [GitHub Repository](#)
-- **EWU Lost & Found Management** — HTML5/CSS3/JS/PHP/MySQL campus lost & found app — [GitHub Repository](#)
-- **Pocket Calendar** — privacy-first, mobile-friendly weekly scheduling app — [GitHub Repository](#)
-
-<!-- TODO: replace the # placeholders above with your real repo / space links -->
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
 
 ## 🛠️ Tech Stack
