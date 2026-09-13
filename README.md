@@ -34,7 +34,7 @@
 
 ### 👋 Hi, I'm a Data Science & Intelligent Systems Engineer
 
-I'm a recent CS&E graduate from East West University 🎓, specializing in applied deep learning and computer vision. I am an active open-source contributor, a bug bounty hunter, and a published researcher.
+I'm a recent Computer Science & Engineering graduate from East West University 🎓, specialising in applied deep learning and computer vision. I am an active open-source contributor, a bug bounty hunter, and a published researcher.
 
 **My Research & Development Focus:**
 
