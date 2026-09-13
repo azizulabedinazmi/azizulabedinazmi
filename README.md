@@ -73,13 +73,21 @@ The job search after graduating has been a genuinely hard stretch — a lot of c
 
 ## 📊 GitHub Stats
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=azizulabedinazmi&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azizulabedinazmi&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=azizulabedinazmi&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizulabedinazmi&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=azizulabedinazmi&theme=github_dark&utcOffset=2)
+<table>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=azizulabedinazmi&theme=holi&name=Azizul+Abedin+Azmi" alt="GitHub profile details" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azizulabedinazmi&theme=holi" alt="Repositories per language" width="100%"></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=azizulabedinazmi&theme=holi" alt="Most committed language" width="100%"></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizulabedinazmi&theme=holi" alt="GitHub statistics" width="100%"></td>
+  </tr>
+</table>
 
-<p align="left"> <img height="28" src="https://komarev.com/ghpvc/?username=azizulabedinazmi&label=Profile%20Views&color=00B2FF&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/> </p>
+
+<p align="center"> <img height="28" src="https://komarev.com/ghpvc/?username=azizulabedinazmi&label=Profile%20Views&color=00B2FF&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/> </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
 
