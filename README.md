@@ -125,9 +125,9 @@ The job search after graduating has been a genuinely hard stretch — a lot of c
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/img/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/img/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/azizulabedinazmi/azizulabedinazmi/img/github-contribution-grid-snake-dark.svg">
   </picture>
 </p>
 
