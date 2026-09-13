@@ -29,9 +29,18 @@
 
 ## 👋 About Me
 
-I'm a Computer Science & Engineering graduate from **East West University**, majoring in **Intelligent Systems and Data Science**. My work sits at the intersection of computer vision, self-supervised learning, and applied deep learning — I've published research on medical image analysis, agricultural disease detection, and astronomical object detection, and I'm an active open-source contributor and bug bounty hunter.
+### 👋 Hi, I'm a Data Science & Intelligent Systems Engineer
 
-The job search after graduating has been a genuinely hard stretch — a lot of closed doors, and days where the effort feels invisible 💻. But the research keeps going, the models keep training, and I'm still working toward a Master's degree abroad 🌍. It's a painful chapter, but it hasn't stopped me from building. ✨
+I'm a recent CS&E graduate from East West University 🎓, specializing in applied deep learning and computer vision. I am an active open-source contributor, a bug bounty hunter, and a published researcher.
+
+**My Research & Development Focus:**
+
+- 🩺 **Medical Image Analysis:** Deep learning architectures for healthcare.
+- 🌾 **Agricultural Tech:** Disease detection models for crop sustainability.
+- 🌌 **Astronomical Object Detection:** Leveraging self-supervised learning for space exploration.
+
+**Current Status:**
+Caught between the exhausting silence of the job hunt and the high stakes of pursuing a Master's abroad, the uncertainty can be suffocating. But even when the effort feels invisible, the research continues and the models keep training. I am building in the dark, fighting for the breakthrough I know I am capable of. 🌍💻✨
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
 
