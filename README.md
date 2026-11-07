@@ -10,9 +10,6 @@
   <a href="https://www.instagram.com/azizulabedin/" target="_blank">
   &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png" width="50"              height="50" >
   </a>
-  <a href="https://www.snapchat.com/add/azizulabedin" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-snapchat-circle-512.png" width="50" height="50" >
-  </a>
   <a href="https://twitter.com/AzmiAbedin/" target="_blank">
   &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-circle-512.png" width="50" height="50" >
   </a>
