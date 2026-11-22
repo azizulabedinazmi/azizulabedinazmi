@@ -82,6 +82,14 @@ Caught between the exhausting silence of the job hunt and the high stakes of pur
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
 
+## 🐟 Git Koi
+
+<p align="center">
+  <img src="koi/koi.gif" width="256" alt="Pixel-art koi drawn from my GitHub activity">
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:F2B705&height=4&width=1000" width="100%"/>
+
 ## 🐍 Contribution Snake
 
 <p align="center">
