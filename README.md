@@ -2,16 +2,16 @@
 
 <p align="center">
   <a href="https://bd.linkedin.com/in/azizulabedin/" target="_blank">
-  <img alt="ifty-Linkedin" src="assets\wired-lineal-2632-logo-circle-linkedin-hover-pinch.webp" width="50" height="50" >
+  <img alt="LinkedIn" src="assets/wired-lineal-2632-logo-circle-linkedin-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://www.facebook.com/azizul.abedin.azmi" target="_blank">
- &nbsp;<img style="padding-right: 5px;" alt="ifty-Instagram" src="assets\wired-lineal-2624-logo-circle-facebook-hover-pinch.webp" width="50" height="50" >
+ &nbsp;<img style="padding-right: 5px;" alt="Facebook" src="assets/wired-lineal-2624-logo-circle-facebook-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://www.instagram.com/azizulabedin/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="assets\wired-lineal-2626-logo-circle-instagram-hover-pinch.webp" width="50" height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="Instagram" src="assets/wired-lineal-2626-logo-circle-instagram-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://twitter.com/AzmiAbedin/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="assets\wired-lineal-2714-logo-x-hover-pinch.webp" width="50" height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="X" src="assets/wired-lineal-2714-logo-x-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://github.com/azizulabedinazmi/" target="_blank">
   &nbsp;<picture>
@@ -94,9 +94,9 @@ Caught between the exhausting silence of the job hunt and the high stakes of pur
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img\github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img\github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="img\github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="img/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="img/github-contribution-grid-snake-dark.svg">
   </picture>
 </p>
 
