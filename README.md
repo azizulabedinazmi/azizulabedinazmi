@@ -2,22 +2,26 @@
 
 <p align="center">
   <a href="https://bd.linkedin.com/in/azizulabedin/" target="_blank">
-  <img alt="ifty-Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" width="50" height="50" >
+  <img alt="ifty-Linkedin" src="assets\wired-lineal-2632-logo-circle-linkedin-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://www.facebook.com/azizul.abedin.azmi" target="_blank">
- &nbsp;<img style="padding-right: 5px;" alt="ifty-Instagram" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-circle-512.png" width="50" height="50" >
+ &nbsp;<img style="padding-right: 5px;" alt="ifty-Instagram" src="assets\wired-lineal-2624-logo-circle-facebook-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://www.instagram.com/azizulabedin/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png" width="50"              height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="assets\wired-lineal-2626-logo-circle-instagram-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://twitter.com/AzmiAbedin/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-circle-512.png" width="50" height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="ifty-Facebook" src="assets\wired-lineal-2714-logo-x-hover-pinch.webp" width="50" height="50" >
   </a>
   <a href="https://github.com/azizulabedinazmi/" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="GitHub" src="https://img.icons8.com/color/50/github--v1.png" width="50" height="50" >
+  &nbsp;<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.icons8.com/color/50/github--v1.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/wired-lineal-2572-logo-github-hover-pinch.webp">
+    <img style="padding-right: 5px;" alt="GitHub" src="assets/wired-lineal-2572-logo-github-hover-pinch.webp" width="50" height="50">
+  </picture>
   </a>
   <a href="https://orcid.org/0009-0003-5269-6900" target="_blank">
-  &nbsp;<img style="padding-right: 5px;" alt="ORCID" src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" width="50" height="50" >
+  &nbsp;<img style="padding-right: 5px;" alt="ORCID" src="assets/orcid-animated.svg" width="50" height="50" >
   </a>
 </p>
 

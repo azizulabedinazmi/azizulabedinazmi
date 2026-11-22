@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 272 272" width="256" height="256">
+  <title>ORCID iD</title>
+  <style>
+    .logo { transform-origin: 128px 128px; animation: pinch 4s ease-in-out infinite; }
+    .ring { fill: none; stroke: #A6CE39; stroke-width: 10; stroke-linecap: round;
+            stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 4s ease-in-out infinite; }
+    .disc { fill: #A6CE39; opacity: 0; animation: fillin 4s ease-in-out infinite; }
+    .glyph { fill: #fff; stroke: #A6CE39; stroke-width: 3; stroke-linejoin: round;
+             stroke-dasharray: 1; stroke-dashoffset: 1; fill-opacity: 0;
+             animation: draw 4s ease-in-out infinite, glyphfill 4s ease-in-out infinite; }
+    .dot { fill: #fff; transform-origin: 78.6px 63.2px; transform: scale(0);
+           animation: pop 4s ease-in-out infinite; }
+
+    @keyframes draw {
+      0%       { stroke-dashoffset: 1; }
+      30%, 85% { stroke-dashoffset: 0; }
+      100%     { stroke-dashoffset: 0; }
+    }
+    @keyframes fillin {
+      0%, 25%  { opacity: 0; }
+      40%, 92% { opacity: 1; }
+      100%     { opacity: 0; }
+    }
+    @keyframes glyphfill {
+      0%, 30%  { fill-opacity: 0; stroke: #A6CE39; }
+      42%, 92% { fill-opacity: 1; stroke: #fff; }
+      100%     { fill-opacity: 0; stroke: #A6CE39; }
+    }
+    @keyframes pop {
+      0%, 35%  { transform: scale(0); }
+      45%      { transform: scale(1.4); }
+      52%, 92% { transform: scale(1); }
+      100%     { transform: scale(0); }
+    }
+    @keyframes pinch {
+      0%, 55%  { transform: scale(1); }
+      62%      { transform: scale(0.88, 0.92); }
+      70%      { transform: scale(1.06); }
+      77%, 100%{ transform: scale(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .logo, .ring, .disc, .glyph, .dot { animation: none; }
+      .ring, .glyph { stroke-dashoffset: 0; }
+      .disc { opacity: 1; }
+      .glyph { fill-opacity: 1; stroke: #fff; }
+      .dot { transform: none; }
+    }
+  </style>
+  <g class="logo">
+    <circle class="disc" cx="128" cy="128" r="128"/>
+    <circle class="ring" cx="128" cy="128" r="123" pathLength="1" transform="rotate(-90 128 128)"/>
+    <path class="glyph" pathLength="1" d="M86.3,186.2H70.9V79.1h15.4V186.2z"/>
+    <path class="glyph" pathLength="1" fill-rule="evenodd" d="M108.9,79.1h41.6c39.6,0,57,28.3,57,53.6c0,27.5-21.5,53.6-56.8,53.6h-41.8V79.1z M124.3,172.4h24.5c34.9,0,42.9-26.5,42.9-39.7c0-21.5-13.7-39.7-43.7-39.7h-23.7V172.4z"/>
+    <circle class="dot" cx="78.6" cy="63.2" r="10.1"/>
+  </g>
+</svg>
