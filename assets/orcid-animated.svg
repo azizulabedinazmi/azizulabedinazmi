@@ -38,13 +38,6 @@
       70%      { transform: scale(1.06); }
       77%, 100%{ transform: scale(1); }
     }
-    @media (prefers-reduced-motion: reduce) {
-      .logo, .ring, .disc, .glyph, .dot { animation: none; }
-      .ring, .glyph { stroke-dashoffset: 0; }
-      .disc { opacity: 1; }
-      .glyph { fill-opacity: 1; stroke: #fff; }
-      .dot { transform: none; }
-    }
   </style>
   <g class="logo">
     <circle class="disc" cx="128" cy="128" r="128"/>
