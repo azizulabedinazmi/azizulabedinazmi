@@ -142,10 +142,22 @@ try {
         }
     }
 
-    # --- Commit / push --------------------------------------------------------
+    # --- Summary --------------------------------------------------------------
     $Paths = @()
     if (-not $SkipSnake) { $Paths += $SnakeLight, $SnakeDark }
     if (-not $SkipKoi)   { $Paths += $KoiGif }
+
+    Write-Step "Files written"
+    foreach ($P in $Paths) {
+        $Item = Get-Item $P -ErrorAction SilentlyContinue
+        if (-not $Item) { throw "$P was not created." }
+        # Compare with the last commit: identical output means your activity didn't change.
+        $null = git diff --quiet HEAD -- $P 2>&1
+        $State = if ($LASTEXITCODE -eq 0) { "unchanged since last commit" } else { "CHANGED" }
+        "    {0,-46} {1,9:N0} bytes  {2}" -f $P, $Item.Length, $State | Write-Host
+    }
+
+    # --- Commit / push --------------------------------------------------------
 
     if ($Commit -or $Push) {
         git add -- $Paths

@@ -73,6 +73,18 @@ The script then writes the snake into `img/` and the koi into `koi/`. It doesn't
 
 ### Step 5: Check the result
 
+At the end, the script lists every file it wrote, its size, and whether it changed since the last commit:
+
+```text
+==> Files written
+    img/github-contribution-grid-snake.svg             71,599 bytes  unchanged since last commit
+    img/github-contribution-grid-snake-dark.svg        71,599 bytes  unchanged since last commit
+    koi/koi.gif                                       424,304 bytes  CHANGED
+```
+
+`unchanged` doesn't mean the file was skipped. The script always writes all three files.
+If your contributions haven't changed since the last run, the new snake is byte-for-byte identical, so `git status` doesn't list it.
+
 ```powershell
 git status
 ```
