@@ -93,7 +93,7 @@ Caught between the exhausting silence of the job hunt and the high stakes of pur
 ## 🐠 Koi Aquarium
 
 <p align="center">
-  <a href="https://github.com/azizulabedinazmi/koi-code-aquarium">
+  <a href="https://github.com/azizulabedinazmi/Koi-Code-Aquarium">
     <img src="koi/aquarium.svg" width="100%" alt="Koi aquarium: one koi per programming language in my public repositories">
   </a>
 </p>

@@ -1,7 +1,7 @@
 # Koi aquarium (local)
 
 Draws `koi/aquarium.svg`, an animated, high-resolution koi pond for the profile README.
-It's the local copy of [koi-code-aquarium](https://github.com/azizulabedinazmi/koi-code-aquarium).
+It's the local copy of [Koi-Code-Aquarium](https://github.com/azizulabedinazmi/Koi-Code-Aquarium).
 
 - **One fish per language.** Each koi is a programming language from your public repositories.
 - **The real git-koi fish.** Every fish is drawn by [git-koi](https://github.com/yalongwastaken/git-koi) with only that language's GitHub colour, so its spots are that language.

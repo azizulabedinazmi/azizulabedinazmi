@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// koi-code-aquarium — a high-resolution, animated koi aquarium for a GitHub profile README.
+// Koi-Code-Aquarium — a high-resolution, animated koi aquarium for a GitHub profile README.
 //
 // Every fish is one programming language from the account's public repositories. The fish are
 // the real git-koi pixel-art koi (https://github.com/yalongwastaken/git-koi), each drawn with only
@@ -17,7 +17,7 @@ import { tmpdir, homedir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { inflateSync } from "node:zlib";
 
-const VERSION = "1.2.0";
+const VERSION = "1.2.1";
 const W = 1600; // the SVG is vector; this is only its coordinate size
 const HEADER_H = 88;
 const POND_H = 580;
@@ -465,7 +465,7 @@ async function buildSvg({ user, title, theme, wallpaperFile, repos, entries, art
   <line x1="0" y1="${HEADER_H - 0.5}" x2="${W}" y2="${HEADER_H - 0.5}" class="rule"/>
   <circle cx="34" cy="30" r="7" fill="#ff5f57"/><circle cx="56" cy="30" r="7" fill="#febc2e"/><circle cx="78" cy="30" r="7" fill="#28c840"/>
   <text x="${W / 2}" y="35" font-size="15" class="dim" text-anchor="middle">${esc(title)}</text>
-  <text x="${W - 26}" y="35" font-size="15" class="dim" text-anchor="end">koi-code-aquarium</text>
+  <text x="${W - 26}" y="35" font-size="15" class="dim" text-anchor="end">Koi-Code-Aquarium</text>
   <text x="26" y="70" font-size="18"><tspan class="prompt">${esc(user)}@github</tspan><tspan class="dim">:</tspan><tspan class="path">~/pond</tspan><tspan class="dim">$ </tspan><tspan class="cmd">./swim --langs ${n} --repos ${repos} </tspan><tspan class="cmd">█<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
 </g>`;
 
@@ -484,7 +484,7 @@ async function buildSvg({ user, title, theme, wallpaperFile, repos, entries, art
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(`${user}'s koi aquarium: ${entries.map((e) => `${e.name} (${e.count})`).join(", ")}`)}">
 <title>${esc(title)}</title>
-<!-- koi-code-aquarium ${VERSION} · one git-koi per language · https://github.com/azizulabedinazmi/koi-code-aquarium -->
+<!-- koi-code-aquarium ${VERSION} · one git-koi per language · https://github.com/azizulabedinazmi/Koi-Code-Aquarium -->
 <defs>
   <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#0b1d33"/><stop offset="0.55" stop-color="#06111f"/><stop offset="1" stop-color="#020617"/>
