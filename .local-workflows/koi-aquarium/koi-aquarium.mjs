@@ -17,12 +17,15 @@ import { tmpdir, homedir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { inflateSync } from "node:zlib";
 
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 const W = 1600; // the SVG is vector; this is only its coordinate size
 const HEADER_H = 88;
 const POND_H = 580;
 const POND_Y0 = HEADER_H;
 const POND_Y1 = HEADER_H + POND_H;
+// Fish length in SVG units: a koi grows in proportion to its language's public repo count.
+const MIN_FISH = 84;
+const MAX_FISH = 260;
 
 // ─── CLI ──────────────────────────────────────────────────────────────────────────────────────
 const HELP = `koi-code-aquarium ${VERSION}
@@ -434,7 +437,8 @@ async function buildSvg({ user, title, theme, wallpaperFile, repos, entries, art
       pts.push([Math.min(box.x1, Math.max(box.x0, cx + Math.cos(a) * rx * m)), Math.min(box.y1, Math.max(box.y0, cy + Math.sin(a) * ry * m))]);
     }
     if (r() < 0.5) pts = pts.reverse();
-    const length = 110 + 80 * Math.sqrt(e.count / max);
+    // grows in proportion to the repo count: the top language is 260 long, a 1-repo language ~100
+    const length = MIN_FISH + (MAX_FISH - MIN_FISH) * (e.count / max);
     const dur = f(loopLength(pts) / (32 + r() * 24));
     return { e, art: arts[i], length, path: closedSpline(pts), dur, begin: f(r() * dur), beat: f(0.8 + r() * 0.5) };
   });
