@@ -17,7 +17,7 @@ import { tmpdir, homedir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { inflateSync } from "node:zlib";
 
-const VERSION = "1.2.1";
+const VERSION = "1.3.0";
 const W = 1600; // the SVG is vector; this is only its coordinate size
 const HEADER_H = 88;
 const POND_H = 580;
@@ -325,28 +325,114 @@ async function languageKoi({ gitKoi, snapshot, work, lang, idx, token, body, ref
     [axis.ux, axis.uy] = [-axis.ux, -axis.uy];
     [axis.tMin, axis.tMax] = [-axis.tMax, -axis.tMin];
   }
-  // the back third of the fish wags as the tail
-  const cut = axis.tMin + (axis.tMax - axis.tMin) * 0.34;
-  const isTail = (p) => (p.x - axis.cx) * axis.ux + (p.y - axis.cy) * axis.uy < cut;
-  return {
-    body: pixelsToPaths(pixels.filter((p) => !isTail(p))),
-    tail: pixelsToPaths(pixels.filter(isTail)),
-    joint: [axis.cx + axis.ux * cut, axis.cy + axis.uy * cut],
-    angle: (Math.atan2(axis.uy, axis.ux) * 180) / Math.PI,
-    center: [axis.cx, axis.cy],
-    length: axis.tMax - axis.tMin,
-    dir: [axis.ux, axis.uy],
+  return { ...koiRig(pixels, axis), angle: (Math.atan2(axis.uy, axis.ux) * 180) / Math.PI, center: [axis.cx, axis.cy], length: axis.tMax - axis.tMin, dir: [axis.ux, axis.uy] };
+}
+
+// Body joints, as fractions of the length from the snout. The segments between them bend one after
+// another, so a wave runs from head to tail; the last segment is the tail fan.
+const JOINTS = [0.3, 0.44, 0.57, 0.68, 0.79];
+// Peak bend at each joint in degrees (head sway is the whole fish turning about the first joint).
+const HEAD_SWAY = 4;
+const BEND = [3, 4.5, 6, 8, 10];
+const WAVE_LAG = 0.12; // fraction of a beat the wave takes to pass from one joint to the next
+
+// Cut the fish into a chain of body segments plus its side fins, all in art-pixel coordinates.
+function koiRig(pixels, axis) {
+  const len = axis.tMax - axis.tMin;
+  const pos = (p) => {
+    const dx = p.x - axis.cx, dy = p.y - axis.cy;
+    return { t: dx * axis.ux + dy * axis.uy, a: -dx * axis.uy + dy * axis.ux };
   };
+  const u = (t) => (axis.tMax - t) / len; // 0 at the snout, 1 at the tail tip
+  const at = pixels.map(pos);
+
+  // Body outline across the fish, slice by slice. A morphological opening of that outline removes
+  // bumps shorter than a fifth of the fish: those bumps are the fins sticking out of the body.
+  const b0 = Math.floor(axis.tMin), nb = Math.ceil(axis.tMax) - b0 + 1;
+  const hi = new Array(nb).fill(-Infinity), lo = new Array(nb).fill(Infinity);
+  at.forEach(({ t, a }) => { const b = Math.round(t) - b0; hi[b] = Math.max(hi[b], a); lo[b] = Math.min(lo[b], a); });
+  for (let b = 1; b < nb; b++) if (hi[b] === -Infinity) { hi[b] = hi[b - 1]; lo[b] = lo[b - 1]; }
+  const w = Math.max(2, Math.round(len * 0.1));
+  const slide = (arr, pick) => arr.map((_, b) => pick(...arr.slice(Math.max(0, b - w), b + w + 1)));
+  const hiBody = slide(slide(hi, Math.min), Math.max);
+  const loBody = slide(slide(lo, Math.max), Math.min);
+  const finSide = at.map(({ t, a }) => {
+    if (u(t) < 0.06 || u(t) > 0.72) return 0;
+    const b = Math.round(t) - b0;
+    return a > hiBody[b] + 1.5 ? 1 : a < loBody[b] - 1.5 ? -1 : 0;
+  });
+
+  // Group fin pixels into fins (8-connected); specks too small to read as a fin stay with the body.
+  const key = (p) => `${p.x},${p.y}`;
+  const index = new Map(pixels.map((p, i) => [key(p), i]));
+  const finOf = new Array(pixels.length).fill(-1);
+  const fins = [];
+  pixels.forEach((p, i) => {
+    if (!finSide[i] || finOf[i] !== -1) return;
+    const members = [i];
+    finOf[i] = fins.length;
+    for (let k = 0; k < members.length; k++) {
+      const q = pixels[members[k]];
+      for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+        const j = index.get(`${q.x + dx},${q.y + dy}`);
+        if (j !== undefined && finOf[j] === -1 && finSide[j] === finSide[i]) { finOf[j] = fins.length; members.push(j); }
+      }
+    }
+    fins.push(members);
+  });
+  const kept = [];
+  fins.forEach((members, n) => {
+    if (members.length < Math.max(6, len * 0.12)) { for (const i of members) finOf[i] = -1; return; }
+    // the root is where the fin meets the body: its pixels nearest the body outline
+    const byDepth = [...members].sort((i, j) => Math.abs(at[i].a) - Math.abs(at[j].a)).slice(0, Math.max(3, Math.ceil(members.length / 4)));
+    const root = [0, 1].map((c) => byDepth.reduce((s, i) => s + (c ? pixels[i].y : pixels[i].x) + 0.5, 0) / byDepth.length);
+    const rootT = byDepth.reduce((s, i) => s + at[i].t, 0) / byDepth.length;
+    kept.push({ n, members, root, side: finSide[members[0]], segment: JOINTS.filter((j) => u(rootT) >= j).length });
+  });
+  const finIds = new Map(kept.map((fin, k) => [fin.n, k]));
+
+  // Body segments overlap by one pixel at each joint so no seam opens while they bend.
+  const segments = JOINTS.map(() => []).concat([[]]);
+  pixels.forEach((p, i) => {
+    if (finOf[i] !== -1 && finIds.has(finOf[i])) return;
+    const v = u(at[i].t);
+    segments.forEach((_, s) => {
+      const from = s === 0 ? -Infinity : JOINTS[s - 1] - 1 / len, to = s === JOINTS.length ? Infinity : JOINTS[s] + 1 / len;
+      if (v >= from && v < to) segments[s].push(p);
+    });
+  });
+  const point = (j) => { const t = axis.tMax - len * j; return [axis.cx + axis.ux * t + 0.5, axis.cy + axis.uy * t + 0.5]; };
+  return {
+    segments: segments.map((ps) => pixelsToPaths(ps)),
+    joints: JOINTS.map(point),
+    fins: kept.map((fin) => ({ paths: pixelsToPaths(fin.members.map((i) => pixels[i])), root: fin.root, side: fin.side, segment: fin.segment })),
+  };
+}
+
+// A smooth back-and-forth turn about (x, y), `lag` beats behind the head.
+function sway(deg, [x, y], beat, lag) {
+  const [cx, cy] = [f(x), f(y)];
+  return `<animateTransform attributeName="transform" type="rotate" values="${-deg} ${cx} ${cy};${deg} ${cx} ${cy};${-deg} ${cx} ${cy}" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="${beat}s" begin="${f(-lag * beat - 4 * beat)}s" repeatCount="indefinite"/>`;
 }
 
 function koiSvg(art, lang, length, beat) {
   const s = length / art.length;
-  const [jx, jy] = art.joint.map(f);
+  // Fins paddle a little faster than the body beats; the two sides take turns.
+  const fins = (seg) =>
+    art.fins
+      .filter((fin) => fin.segment === seg)
+      .map((fin) => `<g>${sway(fin.side * 16, fin.root, f(beat * 0.9), fin.side > 0 ? 0 : 0.5)}${fin.paths}</g>`)
+      .join("");
+  // Nest each segment inside the one ahead of it, so every joint carries everything behind it.
+  // The segment ahead is drawn last, so it sits on top of the joint; fins tuck under the body.
+  let chain = "";
+  for (let seg = art.segments.length - 1; seg >= 1; seg--) {
+    chain = `<g>${sway(BEND[seg - 1], art.joints[seg - 1], beat, seg * WAVE_LAG)}${chain}${fins(seg)}${art.segments[seg]}</g>`;
+  }
   return `<ellipse cx="${f(length * 0.06)}" cy="0" rx="${f(length * 0.52)}" ry="${f(length * 0.2)}" fill="${lang.color}" opacity="0.28" filter="url(#glow)"/>
   <ellipse cx="${f(length * 0.1)}" cy="${f(length * 0.12)}" rx="${f(length * 0.42)}" ry="${f(length * 0.13)}" fill="#000" opacity="0.32" filter="url(#soft)"/>
   <g transform="scale(${f(s)}) rotate(${f(-art.angle)}) translate(${f(-art.center[0])} ${f(-art.center[1])})" shape-rendering="crispEdges">
-    <g><animateTransform attributeName="transform" type="rotate" values="-9 ${jx} ${jy};9 ${jx} ${jy};-9 ${jx} ${jy}" dur="${beat}s" repeatCount="indefinite"/>${art.tail}</g>
-    ${art.body}
+    <g>${sway(HEAD_SWAY, art.joints[0], beat, 0.5)}${chain}${fins(0)}${art.segments[0]}</g>
   </g>`;
 }
 
