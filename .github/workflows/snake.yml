@@ -2,8 +2,8 @@ name: Generate snake animation
 
 on:
   schedule:
-    # Every 12 hours, on the hour.
-    - cron: "0 */12 * * *"
+    # Every week, only on Friday.
+    - cron: "	0 0 * * 5"
 
   workflow_dispatch:
 
